@@ -2,6 +2,7 @@ from tkinter import *
 
 root = Tk()
 root.title("GUI Calculator")
+root.iconbitmap('GUI-Calculator\calculator_icon-icons.com_72046.ico')
 operations = []
 def operate(L):
     x = "".join(L)
